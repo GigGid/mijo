@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=KoHo&family=Montserrat:wght@300&family=Nunito&family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap');
+
+$primary: #17224d;
+$light:rgba(245, 245, 245, 0.459);
+$transparent:rgba(255, 255, 255, 0);
+$secondary:#ff020a;
+
+$theme-colors: (
+  "primary":   $primary,
+  "light": $light,
+  "transparent":$transparent,
+  "secondary":$secondary,
+ 
+);
+
+
+.dropdown-toggle {
+  &::after {
+    display: none;
+  }
+}
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+.text-style{
+  font-family:'Outfit', sans-serif ;
+}
+

@@ -1,0 +1,81 @@
+.home-menu {
+  background-color: rgb(235, 252, 255);
+}
+
+.opportunity-card-session {
+  margin-top: 5%;
+}
+
+.card-header-text {
+  font-size: 50px;
+}
+
+.video-session-grid-text {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.grid-btn {
+  background-color: #17224d;
+}
+
+.grid-btn:hover {
+  background-color: #ff020a;
+}
+
+.opportunity-card {
+  border-top-right-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+}
+
+.card-img {
+  border-top-right-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.card-body-side {
+  height: 250px;
+}
+
+.card-title {
+  font-size: 10px;
+  color: #ff020a;
+  font-weight: bold;
+}
+
+.card-description {
+  font-size: 2rem;
+  // height:50px;
+}
+
+.card-link {
+  font-size: 0.8rem;
+}
+
+.banner-session {
+  margin-top: 5%;
+}
+
+.banner-header {
+  font-size: 3rem;
+  padding: 0% 10%;
+}
+
+.strokes {
+  border-left: 1px solid white;
+}
+
+.brand-session {
+  margin-top: 5%;
+}
+
+.brand-logo {
+  filter: grayscale(100%);
+}
+
+
