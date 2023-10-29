@@ -22,7 +22,7 @@ export const GridRowFulfilment = () => {
      header1={header1}
      description1={description1}
      image1={image1}
-     header2={header1}
+     header2={header2}
      description2={description2}
      image2={image2}
      header3={header3}

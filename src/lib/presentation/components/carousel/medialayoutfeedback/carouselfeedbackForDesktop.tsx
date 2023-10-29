@@ -23,13 +23,6 @@ interface data {
 
 export const CarouselFulfillment:FC<data> = (props) =>{
   
-
-
-  const textJustify={
-    textAlign: "justify",
-    textJustify: "inter-word",
-  }
-
   return (
     <Card className="border-0  carousel-card py-5" style={{height:"500px"}}>
       <Card.Body className="p-0 m-0 ">

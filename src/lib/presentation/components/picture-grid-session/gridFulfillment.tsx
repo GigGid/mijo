@@ -33,7 +33,7 @@ export const GridFulfilment: FC<Props> = (props) => {
             </div>
             <div className="mt-3 fw-bold">
             {props.linkIsVisible ? (
-                    <a href="#" className="text-decoration-none">
+                    <a href="/" className="text-decoration-none">
                     HERE'S HOW TO DO IT{" "}
                     <Image
                       src="https://global-uploads.webflow.com/618ac079e7dd392826f282d6/6192d06ad7b9cb2f05d3a76b_2561330_arrow_left_icon.svg"
@@ -89,7 +89,7 @@ export const GridFulfilment: FC<Props> = (props) => {
             <div className="grid-column-descriptions">{props.description2}</div>
             <div className="mt-3 fw-bold">
             {props.linkIsVisible ? (
-                    <a href="#" className="text-decoration-none">
+                    <a href="/" className="text-decoration-none">
                     HERE'S HOW TO DO IT{" "}
                     <Image
                       src="https://global-uploads.webflow.com/618ac079e7dd392826f282d6/6192d06ad7b9cb2f05d3a76b_2561330_arrow_left_icon.svg"
@@ -110,7 +110,7 @@ export const GridFulfilment: FC<Props> = (props) => {
             <div className="grid-column-descriptions">{props.description3}</div>
             <div className="mt-3 fw-bold">
                 {props.linkIsVisible ? (
-                    <a href="#" className="text-decoration-none">
+                    <a href="/" className="text-decoration-none">
                     HERE'S HOW TO DO IT{" "}
                     <Image
                       src="https://global-uploads.webflow.com/618ac079e7dd392826f282d6/6192d06ad7b9cb2f05d3a76b_2561330_arrow_left_icon.svg"

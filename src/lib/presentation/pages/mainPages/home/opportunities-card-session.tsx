@@ -47,7 +47,7 @@ export const OpportunitiesCardSession = () => {
                 </Card.Body>
                 <Card.Footer className="border-0 bg-transparent py-3">
                 <div className="card-link fw-bold">
-                    <a href="#"className="text-decoration-none"> LEARN MORE </a>
+                    <a href="/"className="text-decoration-none"> LEARN MORE </a>
                   </div>
                 </Card.Footer>
               </Card>

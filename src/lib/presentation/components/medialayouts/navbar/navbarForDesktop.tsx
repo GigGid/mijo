@@ -90,32 +90,32 @@ function NavbarForDesktop() {
                           </Dropdown.Toggle>
                           <Dropdown.Menu className="border-0 rounded-4 dropdown-menu-item">
                             <Dropdown.Item className="dropdown-menu-item">
-                              <Nav.Link href="#">
+                              <Nav.Link href="/">
                                 Fulfillment Help Center
                               </Nav.Link>
                             </Dropdown.Item>
                             <Dropdown.Item className="dropdown-menu-item">
-                              <Nav.Link href="#">
+                              <Nav.Link href="/">
                                Blog
                               </Nav.Link>
                             </Dropdown.Item>
                             <Dropdown.Item className="dropdown-menu-item">
-                              <Nav.Link href="#">
+                              <Nav.Link href="/">
                                In the press
                               </Nav.Link>
                             </Dropdown.Item>
                             <Dropdown.Item className="dropdown-menu-item">
-                              <Nav.Link href="#">
+                              <Nav.Link href="/">
                                FAQs
                               </Nav.Link>
                             </Dropdown.Item>
                             <Dropdown.Item className="dropdown-menu-item">
-                              <Nav.Link href="#">
+                              <Nav.Link href="/">
                                Testimonials
                               </Nav.Link>
                             </Dropdown.Item>
                             <Dropdown.Item className="dropdown-menu-item">
-                              <Nav.Link href="#">
+                              <Nav.Link href="/">
                                Careers
                               </Nav.Link>
                             </Dropdown.Item>
@@ -123,7 +123,7 @@ function NavbarForDesktop() {
                         </Dropdown>
                       </div>
 
-                      <Nav.Link href="#" className="text-black">Contact Us</Nav.Link>
+                      <Nav.Link href="/" className="text-black">Contact Us</Nav.Link>
 
                       <Button
                         variant="secondary"
