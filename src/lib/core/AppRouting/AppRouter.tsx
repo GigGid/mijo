@@ -1,5 +1,4 @@
 import {  Navigate, Route, Routes } from "react-router-dom";
-import { GridSession } from "../../presentation/pages/mainPages/solution/online-ecommerce/gridSession";
 import HomeForDesktops from "../../presentation/pages/mainPages/home/homeForDesktops";
 import { MainIndex } from "../../presentation/main-index";
 import { OnlineEcommerceIndex } from "../../presentation/pages/mainPages/solution/online-ecommerce/onlineEcommerceIndex";
