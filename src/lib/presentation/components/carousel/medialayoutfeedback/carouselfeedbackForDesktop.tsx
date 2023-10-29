@@ -6,12 +6,8 @@ import {
   Col,
   Row,
 
-  //   CarouselItem,
+
 } from "react-bootstrap";
-import carouselimg1 from "../../../../../assets/images/buyer1.jpg";
-import carouselimg2 from "../../../../../assets/images/buyer2.png";
-import carouselimg3 from "../../../../../assets/images/buyer3.jpg";
-import carouselimg4 from "../../../../../assets/images/buyer4.jpg";
 import { FC, ReactElement } from "react";
 
 

@@ -1,5 +1,5 @@
-import React from "react";
-import { Button, Col, Container, Image, Row } from "react-bootstrap";
+
+import {  Container, Image,  } from "react-bootstrap";
 import { Logo } from "../../../../../assets/images";
 
 function FooterForDesktop() {

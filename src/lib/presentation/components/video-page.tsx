@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Button, Container, Image } from "react-bootstrap";
+import { Button, Container,  } from "react-bootstrap";
 
 interface Props {
   src: string;

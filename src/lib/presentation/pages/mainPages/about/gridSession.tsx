@@ -1,5 +1,6 @@
 
 import { GridImagePageAbout } from "../../../components/picture-grid-session/gridImagePageAbout";
+
 export const GridSession = () => {
   const header = "Easier trade for Africa";
   const description = "We make trading in Africa easier and more beneficial to more people";
