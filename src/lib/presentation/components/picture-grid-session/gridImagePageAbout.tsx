@@ -4,7 +4,13 @@ import {  Col, Container, Row } from "react-bootstrap";
 interface Props {
 
   header: string;
-  description: string;
+  description: string,
+  overview:string,
+  overviewContent:string,
+  value:string,
+  valueContent:string,
+  focus:string,
+  focusContent:string,
   image1?:string,
   image2?:string,
   image3?:string,
@@ -16,13 +22,27 @@ export const GridImagePageAbout: FC<Props> = (props) => {
   return (
     <section className="grid-image-session" style={{background:props.background}}>
       <Container>
-        <Row>
-          <Col md={5} className=" text-primary">
+        <Row className="align-items-center about-bg rounded-4 p-3">
+          <Col md={6} className=" text-primary">
             <div className="grid-image-header px-4 fw-bold">
               {props.header}
             </div>
             <div className="grid-image-description mt-5 px-3">
-              {props.description}
+              {/* {props.description} */}
+              <ul>
+                <li>
+                  <p className="fw-bold">{props.overview}</p>
+                  <p>{props.overviewContent}</p>
+                </li>
+                <li>
+                  <p className="fw-bold">{props.value}</p>
+                  <p>{props.valueContent}</p>
+                </li>
+                <li>
+                  <p className="fw-bold">{props.focus}</p>
+                  <p>{props.focusContent}</p>
+                </li>
+              </ul>
             </div>
             
           </Col>

@@ -1,7 +1,52 @@
 .about-section{
-    padding:0px 25%;
+    padding:0px 0%;
 }
 
 .mission-card-session{
     margin-top:5%;
+    
 }
+
+.about-bg{
+    background:rgb(253, 237, 237);
+}
+
+.solution{
+    background:rgba(128, 128, 128, 0.185);
+}
+
+
+.contact-us-bg{
+    background: linear-gradient(rgba(255, 255, 255, 0.651), rgba(255, 255, 255, 0.87)), url('../../../../../assets/images/pattern.png');
+    background-size: contain;
+    background-position: center;
+}
+
+
+
+// .contact-us-bg {
+//     position: relative;
+// }
+
+// .contact-us-bg::before {
+//     content: "";
+//     background: rgba(0, 0, 0, 0.5); /* Change the color and opacity as needed */
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     z-index: 1; /* Adjust the z-index to control the overlay's stacking order */
+// }
+
+// .contact-us-bg::after {
+//     content: "";
+//     background-image: url('../../../../../assets/images/pattern.png');
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     z-index: 0; /* Set a lower z-index to place the image beneath the overlay */
+//     opacity: 0.5; /* You can set the opacity for the image here */
+// }
