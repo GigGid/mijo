@@ -89,7 +89,7 @@ function VideoGridSession() {
                       </p>
                     </div>
                   </div>
-                  <div className="mt-5 vid-btn">
+                  <div className="mt-5 vid-btn text-center">
                     <Link
                       to="/about"
                       className="grid-btn border-0 py-3 text-white rounded-3 text-decoration-none px-4"

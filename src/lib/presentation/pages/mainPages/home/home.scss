@@ -82,7 +82,7 @@
 .vid-header{
  padding:0px 50px;
  text-align: center !important;
- font-size:100px ;
+ font-size:40px ;
 }
 
 .vid-body{
@@ -93,6 +93,7 @@
   .vid-header{
     padding:0px 5px;
     text-align: center !important;
+    font-size:30px !important;
   }
   
   .vid-body{
@@ -103,8 +104,20 @@
 @media only screen and (max-width: 767px){
   .vid-header{
     padding:0px 0px;
-    text-align: left !important;
+    text-align: center !important;
     font-size:20px !important;
+  }
+  
+  .vid-body{
+    padding:0px 0px;
+  }
+}
+
+@media only screen and (max-width: 420px){
+  .vid-header{
+    padding:0px 0px;
+    text-align: center !important;
+    font-size:18px !important;
   }
   
   .vid-body{
