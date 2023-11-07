@@ -1,4 +1,3 @@
-import React from 'react'
 import { Video } from '../../../components/video-page'
 
 export const VideoPlayerSession = () => {

@@ -1,4 +1,3 @@
-import React from 'react'
 import { GridColumn } from '../../../../components/picture-grid-session/gridColumn'
 
 export const GridRowImage = () => {

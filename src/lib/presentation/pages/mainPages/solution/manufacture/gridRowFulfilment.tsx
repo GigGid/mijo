@@ -1,4 +1,3 @@
-import React from 'react'
 import { GridFulfilment } from '../../../../components/picture-grid-session/gridFulfillment'
 
 export const GridRowManufacturing = () => {

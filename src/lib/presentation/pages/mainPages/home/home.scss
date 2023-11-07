@@ -79,3 +79,35 @@
 }
 
 
+.vid-header{
+ padding:0px 50px;
+ text-align: center !important;
+ font-size:100px ;
+}
+
+.vid-body{
+  padding:0px 100px;
+}
+
+@media only screen and (max-width: 990px){
+  .vid-header{
+    padding:0px 5px;
+    text-align: center !important;
+  }
+  
+  .vid-body{
+    padding:0px 50px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .vid-header{
+    padding:0px 0px;
+    text-align: left !important;
+    font-size:20px !important;
+  }
+  
+  .vid-body{
+    padding:0px 0px;
+  }
+}

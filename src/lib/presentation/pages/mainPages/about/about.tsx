@@ -1,4 +1,3 @@
-import React from "react";
 import { GridSession } from "./gridSession";
 import './about.scss'
 import { MissionCard } from "./missionCard";

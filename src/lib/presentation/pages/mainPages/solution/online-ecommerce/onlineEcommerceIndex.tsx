@@ -1,4 +1,3 @@
-import React from "react";
 import { GridSession } from "./gridSession";
 import { GridRowImage } from "./gridRowImage";
 import { GridRowFulfilment } from "./gridRowFulfilment";
