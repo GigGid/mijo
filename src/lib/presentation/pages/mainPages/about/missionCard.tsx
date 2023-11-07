@@ -1,34 +1,33 @@
-import React from "react";
-import { Button, Card, Col, Image, Row } from "react-bootstrap";
+import { Card, Col, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export const MissionCard = () => {
-  const team = [
-    {
-      name: "Mesh Alloys",
-      position: "CEO",
-      image:
-        "https://global-uploads.webflow.com/618ac079e7dd392826f282d6/618ac079e7dd3985d0f2830c_About-Image%E2%80%94Team%E2%80%94Mesh-Alloys.jpg",
-    },
-    {
-      name: "Malaika Judd",
-      position: "Chief Investor Relations Officer",
-      image:
-        "https://global-uploads.webflow.com/618ac079e7dd392826f282d6/618ac079e7dd39a8e7f2831f_About-Image%E2%80%94Team%E2%80%94Malaika-Judd.jpg",
-    },
-    {
-      name: "Evanson Biwott",
-      position: "Engineering R&D",
-      image:
-        "https://global-uploads.webflow.com/618ac079e7dd392826f282d6/618ac079e7dd3933daf28312_About-Image%E2%80%94Team%E2%80%94Evanson-Biwott.jpg",
-    },
-    {
-      name: "Don Okoth",
-      position: "GM - Kenya",
-      image:
-        "https://global-uploads.webflow.com/618ac079e7dd392826f282d6/618ac079e7dd3962dcf2830f_About-Image%E2%80%94Team%E2%80%94Don-Okoth.jpg",
-    },
-  ];
+  // const team = [
+  //   {
+  //     name: "Mesh Alloys",
+  //     position: "CEO",
+  //     image:
+  //       "https://global-uploads.webflow.com/618ac079e7dd392826f282d6/618ac079e7dd3985d0f2830c_About-Image%E2%80%94Team%E2%80%94Mesh-Alloys.jpg",
+  //   },
+  //   {
+  //     name: "Malaika Judd",
+  //     position: "Chief Investor Relations Officer",
+  //     image:
+  //       "https://global-uploads.webflow.com/618ac079e7dd392826f282d6/618ac079e7dd39a8e7f2831f_About-Image%E2%80%94Team%E2%80%94Malaika-Judd.jpg",
+  //   },
+  //   {
+  //     name: "Evanson Biwott",
+  //     position: "Engineering R&D",
+  //     image:
+  //       "https://global-uploads.webflow.com/618ac079e7dd392826f282d6/618ac079e7dd3933daf28312_About-Image%E2%80%94Team%E2%80%94Evanson-Biwott.jpg",
+  //   },
+  //   {
+  //     name: "Don Okoth",
+  //     position: "GM - Kenya",
+  //     image:
+  //       "https://global-uploads.webflow.com/618ac079e7dd392826f282d6/618ac079e7dd3962dcf2830f_About-Image%E2%80%94Team%E2%80%94Don-Okoth.jpg",
+  //   },
+  // ];
   return (
     <section className="mission-card-session">
       <Card

@@ -1,4 +1,3 @@
-import React from 'react'
 import { GridRowImageManufacture } from './gridRowImage'
 import { ManufacturingCarousel } from './manufacturingCarousel'
 import './manufacturing.scss'

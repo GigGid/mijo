@@ -1,4 +1,3 @@
-import React from "react";
 import "../solution.scss";
 import { GridImagePageManufacturing } from "../../../../components/picture-grid-session/gridImagePageManufacturing";
 export const GridSession = () => {
