@@ -42,14 +42,18 @@
   height: 250px;
 }
 
+
+
 .card-title {
   font-size: 10px;
   color: #ff020a;
   font-weight: bold;
+  
 }
 
 .card-description {
   font-size: 2rem;
+  line-height: 35px;
   // height:50px;
 }
 
@@ -63,7 +67,7 @@
 
 .banner-header {
   font-size: 3rem;
-  padding: 0% 10%;
+  padding: 0% 5%;
 }
 
 .strokes {
@@ -89,6 +93,52 @@
   padding:0px 100px;
 }
 
+.card-col-for-mobile{
+  width:350px !important;
+  border-radius: 20px !important;
+  border:5px solid white !important;
+  padding:0px !important;
+}
+
+.opportunity-sm-card{
+  margin-top:100px !important;
+  margin-bottom: 15% !important;
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1400px) {
+
+  .card-description {
+    font-size: 2rem;
+    line-height: 35px;
+    // height:50px;
+  }
+
+  .card-body-side {
+    padding:50px !important;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) {
+  .card-img {
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+  }
+
+  .card-body-side {
+    padding:25px !important;
+  }
+
+  .card-description {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: bold;
+    // height:50px;
+  }
+}
+
 @media only screen and (max-width: 990px){
   .vid-header{
     padding:0px 5px;
@@ -111,7 +161,16 @@
   .vid-body{
     padding:0px 0px;
   }
+
+  .banner-header {
+    font-size: 2rem;
+    padding: 0% 10%;
+  }
 }
+
+// .col-figure-stats{
+//   border-right: 1px solid white;
+// }
 
 @media only screen and (max-width: 420px){
   .vid-header{
@@ -123,4 +182,15 @@
   .vid-body{
     padding:0px 0px;
   }
+
+  .banner-header {
+    font-size: 30px;
+    padding: 0% 0%;
+    font-weight: 200 !important;
+  }
+
+  .col-figure-stats{
+    border-bottom: 1px solid white;
+  }
+
 }
