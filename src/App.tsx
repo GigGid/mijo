@@ -1,13 +1,13 @@
 import AppRouter from "./lib/core/AppRouting/AppRouter";
 import "./custom.scss";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <AppRouter />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
