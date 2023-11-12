@@ -34,8 +34,8 @@ export const MissionCard = () => {
         className="rounded-4 border-0 p-4"
         style={{ background: "#eff6fb" }}
       >
-        <Row className="align-items-center p-5">
-          <Col>
+        <Row className="align-items-center service-card  gy-5">
+          <Col lg={{order:"first"}}  xs={{order:"last"}}>
             <div className="fs-3 fw-bold text-primary mb-4">Services</div>
             <div>
               <ul>
@@ -72,32 +72,32 @@ export const MissionCard = () => {
               </ul>
             </div>
           </Col>
-          <Col>
+          <Col md={12} lg={6}>
             <Image
               className="rounded-4"
               src="https://global-uploads.webflow.com/618ac079e7dd392826f282d6/636189e34cdd2935bbb698aa_sendy_image.jpg"
               alt="img"
-              style={{ width: "100%", height: "400px" }}
+              style={{ width: "100%", height: "100%" }}
             />
           </Col>
         </Row>
       </Card>
 
       <Card
-        className="rounded-4 border-0 mt-5 p-4"
+        className="rounded-4 border-0 mt-5 p-3"
         style={{ background: "white" }}
       >
-        <Row className="align-items-center solution rounded-4 p-5">
-          <Col>
+        <Row className="align-items-center solution-card rounded-4 gy-5 ">
+          <Col md={12} lg={6}>
             <Image
               className="rounded-4"
               src="https://global-uploads.webflow.com/618ac079e7dd392826f282d6/61b08cc2ef37489ff0a2ed23_3.jpg"
               alt="img"
-              style={{ width: "100%", height: "400px" }}
+              style={{ width: "100%", height: "100%" , objectPosition:"top"}}
             />
           </Col>
-          <Col>
-            <div className="fs-3 fw-bold text-primary  mb-4 mt-3">Solution</div>
+          <Col lg={{order:"last"}}  xs={{order:"last"}}>
+            <div className="fs-3 fw-bold text-primary  mb-4 ">Solution</div>
             <div>
               <ul>
                 <li>
@@ -139,24 +139,24 @@ export const MissionCard = () => {
       <Card className="p-5 border-0 contact-us-bg">
         <div className="contact-us">
           <p className="fw-bold fs-1 text-primary">Contact Us</p>
-          <Row className="align-items-center">
-            <Col>
-              <div className="fs-5 fw-bold text-primary">
+          <Row className="align-items-center gy-5">
+            <Col md={12} lg={6} >
+              <div className=" fw-bold text-primary contact-us-text">
                 Get in touch with our team today to discuss your logistics
                 needs. You can reach us by phone, email, or through our
                 website's contact form.
               </div>
-              <div className="mt-3 fs-5 fw-bold text-primary">
+              <div className="mt-3  fw-bold text-primary contact-us-text">
                 Let Mijo be your trusted logistics partner. Contact us for a
                 consultation or to learn more about how we can help your online
                 and e-commerce business thrive.
               </div>
             </Col>
-            <Col className="d-flex justify-content-end">
+            <Col className="d-lg-flex justify-content-end contact-us-btn">
               <div>
                 <Link
                   to="/mailto:"
-                  className="bg-secondary p-4 text-white rounded-3 shadow-lg text-decoration-none"
+                  className="bg-secondary p-3 text-white rounded-3 shadow-lg text-decoration-none"
                 >
                   Send us a message
                 </Link>

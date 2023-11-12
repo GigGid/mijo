@@ -1,28 +1,78 @@
-.about-section{
-    padding:0px 0%;
+.about-section {
+  padding: 0px 0%;
 }
 
-.mission-card-session{
-    margin-top:5%;
-    
+.mission-card-session {
+  margin-top: 5%;
 }
 
-.about-bg{
-    background:rgb(253, 237, 237);
+.about-bg {
+  // background:rgb(253, 237, 237);
 }
 
-.solution{
-    background:rgba(128, 128, 128, 0.185);
+.solution-card {
+  background: rgba(128, 128, 128, 0.185);
+}
+
+.contact-us-bg {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.651),
+      rgba(255, 255, 255, 0.87)
+    ),
+    url("../../../../../assets/images/pattern.png");
+  background-size: contain;
+  background-position: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .img-fluid {
+    width: 170px !important;
+    height: 200px !important;
+    object-fit: cover;
+    // box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    // opacity:0.5;
+    // border:10px solid white;
+    // border-radius: 50%;
+    margin-bottom: -35%;
+    // margin-bottom:20%;
+  }
+
+//   .contact-us-btn{
+//     display: flex ;
+//     justify-content: left !important;
+//   }
+
 }
 
 
-.contact-us-bg{
-    background: linear-gradient(rgba(255, 255, 255, 0.651), rgba(255, 255, 255, 0.87)), url('../../../../../assets/images/pattern.png');
-    background-size: contain;
-    background-position: center;
+.service-card{
+    padding:40px;
+};
+
+.solution-card {
+    padding:  20px 50px ;
+  }
+
+@media only screen and (max-width: 768px) {
+  .solution-card{
+    padding: 15px ;
+  }
+  .service-card{
+    padding:0px;
+};
 }
 
+.contact-us-text{
+    font-size: 20px !important;
 
+}
+
+@media only screen and (max-width: 578px) {
+.contact-us-text{
+    font-size: 15px !important;
+   
+}
+  }
 
 // .contact-us-bg {
 //     position: relative;

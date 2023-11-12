@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 export const Banner = () => {
   const figures = [
@@ -26,16 +26,17 @@ export const Banner = () => {
           {" "}
           Opening up the continent creates opportunities for everyone
         </div>
-        <div className="d-flex flex-wrap justify-content-center mt-5 figures-side">
+          <Row className="p-0 mt-5 gy-5">
           {figures.map((data, key) => (
-            <div className=" text-center">
-              <div className="strokes px-5 ">
-                <div className="fs-1 fw-bold text-white "> {data.num}</div>
-                <div className="text-white">{data.text}</div>
+            <Col key={key} className="bg-secondary  text-center" lg={3} md={6} sm={12}  >
+              <div className="">
+              <div className="fs-1 fw-bold text-white  "> {data.num}</div>
+                <div className="text-white ">{data.text}</div>
               </div>
-            </div>
-          ))}
-        </div>
+              
+            </Col>
+            ))}
+          </Row>
       </Container>
     </section>
   );
