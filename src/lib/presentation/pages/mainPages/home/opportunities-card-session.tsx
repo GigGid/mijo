@@ -36,7 +36,7 @@ export const OpportunitiesCardSession = () => {
       <MediaContextProvider>
         <Media at="lg">
           <Container>
-            <div className="text-center fw-bold card-header-text">
+            <div className="text-center fw-bold card-header-text mb-4">
               Unlocking opportunities for businesses
             </div>
             <Row>
@@ -46,12 +46,12 @@ export const OpportunitiesCardSession = () => {
                     style={{ background: item.background }}
                     className="border-0 opportunity-card"
                   >
-                    <Card.Img
+                    {/* <Card.Img
                       src="http://via.placeholder.com/640x360"
                       alt=""
                       style={{ width: "100%", height: "300px" }}
                       className="card-img "
-                    />
+                    /> */}
                     <Card.Body className="card-body-side">
                       <div className="card-title">{item.title}</div>
                       <div className="card-description text-primary fw-normal">
@@ -87,12 +87,12 @@ export const OpportunitiesCardSession = () => {
                   >
                     <Row>
                       <Col>
-                        <Card.Img
+                        {/* <Card.Img
                           src="http://via.placeholder.com/640x360"
                           alt=""
                           style={{ width: "100%", height: "300px" }}
                           className="card-img"
-                        />
+                        /> */}
                       </Col>
                       <Col>
                         <Card.Body className="card-body-side">
@@ -131,12 +131,12 @@ export const OpportunitiesCardSession = () => {
                 style={{ background: item.background }}
                 className="border-0 mx-2 opportunity-sm-card  card-col-for-mobile"
               >
-                <Card.Img
+                {/* <Card.Img
                   src="http://via.placeholder.com/640x360"
                   alt=""
                   style={{ width: "100%", height: "300px" }}
                   className="card-img "
-                />
+                /> */}
                 <Card.Body className="card-body-side">
                   <div className="card-title ">{item.title}</div>
                   <div className="card-description text-primary fw-normal fs-2">

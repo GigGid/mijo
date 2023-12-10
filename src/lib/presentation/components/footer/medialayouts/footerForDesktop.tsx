@@ -30,7 +30,7 @@ function FooterForDesktop() {
                 <p>Blog</p>
                 <p>Fulfillment Help Center</p>
                 <p>FAQs</p>
-                <p>Testimonials</p>
+                {/* <p>Testimonials</p> */}
                 <p>Careers</p>
               </div>
 
@@ -39,8 +39,8 @@ function FooterForDesktop() {
                 <p>Terms of Service</p>
                 <p>Privacy</p>
                 <p>Driver Privacy</p>
-                <p>Freight Transporter Terms</p>
-                <p>Freight Shipper Terms</p>
+                {/* <p>Freight Transporter Terms</p> */}
+                {/* <p>Freight Shipper Terms</p> */}
                 <p>Supply Terms</p>
               </div>
 
