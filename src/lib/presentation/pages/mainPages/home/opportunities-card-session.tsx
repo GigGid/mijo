@@ -13,19 +13,19 @@ export const OpportunitiesCardSession = () => {
   const data = [
     {
       title: "ONLINE & E-COMMERCE SELLERS SOLUTIONS",
-      description: "Get your orders flowing effortlessly",
+      description: "Get your orders flowing effortlessly.",
       body: "Say goodbye to time consuming follow-ups with customers and riders. Free more time to grow your business.",
       background: "#fef3e8",
     },
     {
       title: "MANUFACTURERS & DISTRIBUTOR SOLUTIONS",
-      description: "From warehouse to shelves, zero headaches",
+      description: "From warehouse to shelves, zero headaches.",
       body: "Fulfill orders to supermarkets, businesses & consumers more reliably and affordably without thinking about logistics.",
       background: "#edf9ff",
     },
     {
       title: "CARGO AND PACKAGES TRANSPORT SOLUTIONS",
-      description: "Reliable delivery for goods countrywide",
+      description: "Reliable delivery for goods countrywide.",
       body: "Deliver anything, anywhere at anytime. Get access to 100s of vetted and trained transporters.",
       background: "#ecedf1",
     },

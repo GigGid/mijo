@@ -22,7 +22,7 @@ function VideoGridSession() {
                 <Col lg={{ order: "first" }}>
                   <div className="d-block ">
                     <p className="mb-3 fs-4 fw-bold">
-                      Welcome to Mijo ,trusted logistics and transportation
+                      Welcome to Mijo, trusted logistics and transportation
                       company specializing in digital fulfilment of services
                       across Africa and enable easy movement of goods across
                       borders.
@@ -30,7 +30,7 @@ function VideoGridSession() {
                     <p className="fw-light">
                       With Mijo, you can expect seamless movement of goods
                       across borders, efficient digital fulfilment and
-                      commitment to meeting customer expectation
+                      commitment to meeting customer expectation.
                     </p>
                     <p className="fw-light">
                       Explore our services or contact us to learn more about how
@@ -64,7 +64,7 @@ function VideoGridSession() {
                 <Col lg={{ order: "first" }}>
                   <div className="d-block ">
                     <p className="mb-3 fw-bold  vid-header">
-                      Welcome to Mijo ,trusted logistics and transportation
+                      Welcome to Mijo, trusted logistics and transportation
                       company specializing in digital fulfilment of services
                       across Africa and enable easy movement of goods across
                       borders.
