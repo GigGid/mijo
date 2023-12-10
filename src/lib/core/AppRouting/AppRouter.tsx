@@ -5,6 +5,7 @@ import { OnlineEcommerceIndex } from "../../presentation/pages/mainPages/solutio
 import { Manufacturing } from "../../presentation/pages/mainPages/solution/manufacture/manufacturing";
 import { PackagesCargo } from "../../presentation/pages/mainPages/solution/packages-cargo/packages";
 import { About } from "../../presentation/pages/mainPages/about/about";
+import { ContactUs } from "../../presentation/pages/mainPages/contact/contactUs";
 
 
 const AppRouter = () => (
@@ -18,6 +19,7 @@ const AppRouter = () => (
         <Route path="manufacturing" element={<Manufacturing/>} />
         <Route path="packages" element={<PackagesCargo/>} />
         <Route path="about" element={<About/>} />
+        <Route path="contact" element={<ContactUs/>} />
       </Route>
       {/* Not found */}
       <Route path="*"> Page not found! 🧐</Route>

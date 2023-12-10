@@ -12,12 +12,12 @@ export const Video: FC<Props> = (props) => {
     <section className="video-session">
       <Container>
         <div>
-          <video
+          {/* <video
            controls
             src={props.src}
             className="rounded-5"
             style={{ width: "100%" }}
-          />
+          /> */}
         </div>
 
         <div className="video-session-text-side ">

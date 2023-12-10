@@ -1,33 +1,7 @@
 import { Card, Col, Image, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Tracking } from "../../../../../assets/images";
 
 export const MissionCard = () => {
-  // const team = [
-  //   {
-  //     name: "Mesh Alloys",
-  //     position: "CEO",
-  //     image:
-  //       "https://global-uploads.webflow.com/618ac079e7dd392826f282d6/618ac079e7dd3985d0f2830c_About-Image%E2%80%94Team%E2%80%94Mesh-Alloys.jpg",
-  //   },
-  //   {
-  //     name: "Malaika Judd",
-  //     position: "Chief Investor Relations Officer",
-  //     image:
-  //       "https://global-uploads.webflow.com/618ac079e7dd392826f282d6/618ac079e7dd39a8e7f2831f_About-Image%E2%80%94Team%E2%80%94Malaika-Judd.jpg",
-  //   },
-  //   {
-  //     name: "Evanson Biwott",
-  //     position: "Engineering R&D",
-  //     image:
-  //       "https://global-uploads.webflow.com/618ac079e7dd392826f282d6/618ac079e7dd3933daf28312_About-Image%E2%80%94Team%E2%80%94Evanson-Biwott.jpg",
-  //   },
-  //   {
-  //     name: "Don Okoth",
-  //     position: "GM - Kenya",
-  //     image:
-  //       "https://global-uploads.webflow.com/618ac079e7dd392826f282d6/618ac079e7dd3962dcf2830f_About-Image%E2%80%94Team%E2%80%94Don-Okoth.jpg",
-  //   },
-  // ];
   return (
     <section className="mission-card-session">
       <Card
@@ -35,7 +9,7 @@ export const MissionCard = () => {
         style={{ background: "#eff6fb" }}
       >
         <Row className="align-items-center service-card  gy-5">
-          <Col lg={{order:"first"}}  xs={{order:"last"}}>
+          <Col lg={{ order: "first" }} xs={{ order: "last" }}>
             <div className="fs-3 fw-bold text-primary mb-4">Services</div>
             <div>
               <ul>
@@ -91,12 +65,12 @@ export const MissionCard = () => {
           <Col md={12} lg={6}>
             <Image
               className="rounded-4"
-              src="https://global-uploads.webflow.com/618ac079e7dd392826f282d6/61b08cc2ef37489ff0a2ed23_3.jpg"
+              src={Tracking}
               alt="img"
-              style={{ width: "100%", height: "100%" , objectPosition:"top"}}
+              style={{ width: "100%", height: "100%", objectPosition: "cover" }}
             />
           </Col>
-          <Col lg={{order:"last"}}  xs={{order:"last"}}>
+          <Col lg={{ order: "last" }} xs={{ order: "last" }} className="mb-5">
             <div className="fs-3 fw-bold text-primary  mb-4 ">Solution</div>
             <div>
               <ul>
@@ -135,81 +109,6 @@ export const MissionCard = () => {
           </Col>
         </Row>
       </Card>
-
-      <Card className="p-5 border-0 contact-us-bg">
-        <div className="contact-us">
-          <p className="fw-bold fs-1 text-primary">Contact Us</p>
-          <Row className="align-items-center gy-5">
-            <Col md={12} lg={6} >
-              <div className=" fw-bold text-primary contact-us-text">
-                Get in touch with our team today to discuss your logistics
-                needs. You can reach us by phone, email, or through our
-                website's contact form.
-              </div>
-              <div className="mt-3  fw-bold text-primary contact-us-text">
-                Let Mijo be your trusted logistics partner. Contact us for a
-                consultation or to learn more about how we can help your online
-                and e-commerce business thrive.
-              </div>
-            </Col>
-            <Col className="d-lg-flex justify-content-end contact-us-btn">
-              <div>
-                <Link
-                  to="/mailto:"
-                  className="bg-secondary p-3 text-white rounded-3 shadow-lg text-decoration-none"
-                >
-                  Send us a message
-                </Link>
-              </div>
-            </Col>
-          </Row>
-          <p></p>
-        </div>
-      </Card>
-
-      {/* <Card
-        className="rounded-4 border-0 mt-5 p-4"
-        style={{ background: "white" }}
-      >
-        <div className="team-card-header fw-bold fs-3 text-center">
-          The Founding Team
-        </div>
-        <Row className="align-items-center">
-          {team.map((data, key) => (
-            <>
-              {data.name === "Malaika Judd" ? (
-                <Col key={key} className="mt-4">
-                  <div>
-                    <Image
-                      className="rounded-4"
-                      src={data.image}
-                      alt="img"
-                      style={{ width: "100%", height: "200px" }}
-                    />
-                  </div>
-
-                  <div className="mt-3 fw-bold text-primary">{data.name}</div>
-                  <div>{data.position}</div>
-                </Col>
-              ) : (
-                <Col key={key}>
-                  <div>
-                    <Image
-                      className="rounded-4"
-                      src={data.image}
-                      alt="img"
-                      style={{ width: "100%", height: "200px" }}
-                    />
-                  </div>
-
-                  <div className="mt-3 fw-bold text-primary">{data.name}</div>
-                  <div>{data.position}</div>
-                </Col>
-              )}
-            </>
-          ))}
-        </Row>
-      </Card> */}
     </section>
   );
 };

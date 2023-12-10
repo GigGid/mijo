@@ -11,18 +11,11 @@ function HomeForDesktops() {
  
   return (
     <>
-     
       <VideoGridSession/>
       <OpportunitiesCardSession/>
-      <Banner/>
-      <Brands/>
+      {/* <Banner/> */}
+      {/* <Brands/> */}
       <VideoPlayerSession/>
-
-      {/* <section className="py-5" style={{ background: "#eafdd7" }}>
-        <Container >
-          <FooterForDesktop />
-        </Container>
-      </section> */}
     </>
   );
 }

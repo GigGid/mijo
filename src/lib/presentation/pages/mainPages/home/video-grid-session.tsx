@@ -2,6 +2,8 @@ import {  Col, Container, Image, Row } from "react-bootstrap";
 import "./home.scss";
 import { Link } from "react-router-dom";
 import { createMedia } from "@artsy/fresnel";
+import { Logistics } from "../../../../../assets/images";
+
 
 function VideoGridSession() {
   const { MediaContextProvider, Media } = createMedia({
@@ -47,7 +49,7 @@ function VideoGridSession() {
                 </Col>
                 <Col lg={7} md={{ order: "first" }}>
                   <Image
-                    src="http://via.placeholder.com/640x360"
+                    src={Logistics}
                     className="rounded-5"
                     style={{ objectFit: "cover", width: "100%" }}
                     alt=""
@@ -69,7 +71,7 @@ function VideoGridSession() {
                     </p>
                     <div>
                       <Image
-                        src="http://via.placeholder.com/640x360"
+                        src={Logistics}
                         className="rounded-5"
                         style={{ objectFit: "cover", width: "100%" }}
                         alt=""
