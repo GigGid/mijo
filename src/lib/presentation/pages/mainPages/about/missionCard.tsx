@@ -18,8 +18,8 @@ export const MissionCard = () => {
                   <p>
                     {" "}
                     Discover our range of distribution services cover Accra and
-                    Tema. Distribution is done based on dwmarcated zones within
-                    operating cities. We have drivers allocated to each zone .We
+                    Tema. Distribution is done based on demarcated zones within
+                    operating cities. We have drivers allocated to each zone. We
                     streamline the distribution process so as to help our
                     clients focus on growing their online and e-commerce
                     business.
@@ -31,15 +31,15 @@ export const MissionCard = () => {
                     {" "}
                     We offer seamless integration with various e-commerce
                     platforms by providing real time tracking and inventory
-                    management. our solutions are best designed to enhance your
-                    online experience
+                    management. Our solutions are best designed to enhance your
+                    online experience.
                   </p>
                 </li>
                 <li>
                   <p className="fw-bold">Specialized handling</p>
                   <p>
-                    With Mijo, it does not matter the items. whether fragile
-                    items, perishable goods or non perishable .our team has the
+                    With Mijo, it does not matter the items. Whether fragile
+                    items, perishable goods or non perishable. Our team has the
                     expertise to handle the specialized requirement .
                   </p>
                 </li>
