@@ -10,10 +10,14 @@ export const MissionCard = () => {
       >
         <Row className="align-items-center service-card  gy-5">
           <Col lg={{ order: "first" }} xs={{ order: "last" }}>
-            <div className="fs-3 fw-bold text-primary mb-4">Services</div>
+            <div className="fs-3 fw-bold text-primary mb-4"  data-aos="fade-bottom"
+              data-aos-offset="200"
+              data-aos-delay="200">Services</div>
             <div>
               <ul>
-                <li>
+                <li  data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-delay="300">
                   <p className="fw-bold"> Distribution solution</p>
                   <p>
                     {" "}
@@ -25,7 +29,9 @@ export const MissionCard = () => {
                     business.
                   </p>
                 </li>
-                <li>
+                <li data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-delay="400">
                   <p className="fw-bold"> E-commerce integration</p>
                   <p>
                     {" "}
@@ -35,7 +41,9 @@ export const MissionCard = () => {
                     online experience.
                   </p>
                 </li>
-                <li>
+                <li data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-delay="500">
                   <p className="fw-bold">Specialized handling</p>
                   <p>
                     With Mijo, it does not matter the items. Whether fragile
@@ -46,7 +54,10 @@ export const MissionCard = () => {
               </ul>
             </div>
           </Col>
-          <Col md={12} lg={6}>
+          <Col md={12} lg={6} 
+          data-aos="fade-bottom"
+          data-aos-offset="200"
+          data-aos-delay="200">
             <Image
               className="rounded-4"
               src="https://global-uploads.webflow.com/618ac079e7dd392826f282d6/636189e34cdd2935bbb698aa_sendy_image.jpg"
@@ -62,7 +73,9 @@ export const MissionCard = () => {
         style={{ background: "white" }}
       >
         <Row className="align-items-center solution-card rounded-4 gy-5 ">
-          <Col md={12} lg={6}>
+          <Col md={12} lg={6}  data-aos="fade-bottom"
+              data-aos-offset="200"
+              data-aos-delay="200">
             <Image
               className="rounded-4"
               src={Tracking}
@@ -71,10 +84,15 @@ export const MissionCard = () => {
             />
           </Col>
           <Col lg={{ order: "last" }} xs={{ order: "last" }} className="mb-5">
-            <div className="fs-3 fw-bold text-primary  mb-4 ">Solution</div>
+            <div className="fs-3 fw-bold text-primary  mb-4 " 
+             data-aos="fade-bottom"
+             data-aos-offset="200"
+             data-aos-delay="200">Solution</div>
             <div>
               <ul>
-                <li>
+                <li data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-delay="300">
                   <p className="fw-bold"> Customization </p>
                   <p>
                     {" "}
@@ -85,7 +103,9 @@ export const MissionCard = () => {
                     chain and improves efficiency.{" "}
                   </p>
                 </li>
-                <li>
+                <li data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-delay="400">
                   <p className="fw-bold"> Technology and Tracking</p>
                   <p>
                     With our tracking systems, you have full visibility into
@@ -94,7 +114,9 @@ export const MissionCard = () => {
                     your logistics operations.
                   </p>
                 </li>
-                <li>
+                <li data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-delay="500">
                   <p className="fw-bold"> Value-added Services</p>
                   <p>
                     {" "}

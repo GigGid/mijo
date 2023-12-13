@@ -36,7 +36,7 @@ export const OpportunitiesCardSession = () => {
       <MediaContextProvider>
         <Media at="lg">
           <Container>
-            <div className="text-center fw-bold card-header-text mb-4">
+            <div className="text-center fw-bold card-header-text mb-4" data-aos="fade-bottom">
               Unlocking opportunities for businesses
             </div>
             <Row>
@@ -45,6 +45,9 @@ export const OpportunitiesCardSession = () => {
                   <Card
                     style={{ background: item.background }}
                     className="border-0 opportunity-card"
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="200"
                   >
                     {/* <Card.Img
                       src="http://via.placeholder.com/640x360"
@@ -75,7 +78,7 @@ export const OpportunitiesCardSession = () => {
         </Media>
         <Media at="md">
           <Container>
-            <div className="text-center fw-bold card-header-text">
+            <div className="text-center fw-bold card-header-text" data-aos="fade-bottom">
               Unlocking opportunities for businesses
             </div>
             <Row className="gy-5 gx-3">
@@ -84,6 +87,9 @@ export const OpportunitiesCardSession = () => {
                   <Card
                     style={{ background: item.background }}
                     className="border-0 opportunity-card"
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="200"
                   >
                     <Row>
                       <Col>
@@ -121,7 +127,7 @@ export const OpportunitiesCardSession = () => {
           </Container>
         </Media>
         <Media at="sm">
-          <div className="text-center fs-1 fw-bold card-header-text">
+          <div className="text-center fs-1 fw-bold card-header-text" data-aos="fade-bottom">
             Unlocking opportunities for businesses
           </div>
           <Row className="d-flex flex-nowrap overflow-auto gx-5 gy-5 px-5 w-100">
@@ -130,6 +136,9 @@ export const OpportunitiesCardSession = () => {
                 key={key}
                 style={{ background: item.background }}
                 className="border-0 mx-2 opportunity-sm-card  card-col-for-mobile"
+                data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="200"
               >
                 {/* <Card.Img
                   src="http://via.placeholder.com/640x360"
