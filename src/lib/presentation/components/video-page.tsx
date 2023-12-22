@@ -32,11 +32,11 @@ export const Video: FC<Props> = (props) => {
                     data-aos-delay="200">
             <Button variant="secondary px-5 text-white" className="">
               {" "}
-              {props.button}
+              <a href="https://wa.me/233502980350" className="text-white text-decoration-none">{props.button}</a> 
             </Button>
           </div>
         </div>
       </Container>
-    </section>
+    </section> 
   );
 };

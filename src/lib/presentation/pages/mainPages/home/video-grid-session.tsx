@@ -96,7 +96,7 @@ function VideoGridSession() {
                     >
                       Welcome to Mijo, trusted logistics and transportation
                       company specializing in digital fulfilment of services
-                      across Africa and enable easy movement of goods across
+                      across Africa. We enable easy movement of goods across
                       borders.
                     </p>
                     <div

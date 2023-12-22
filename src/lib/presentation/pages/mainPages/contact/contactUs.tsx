@@ -47,7 +47,7 @@ export const ContactUs = () => {
                   <SiGmail />
                   <a href="mailto:mijoexpress768@gmail.com" className="mx-2">
                     {" "}
-                    mailto:mijoexpress768@gmail.com
+                   mijoexpress763@gmail.com
                   </a>
                 </div>
                 <div
