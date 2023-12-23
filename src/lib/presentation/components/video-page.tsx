@@ -21,18 +21,22 @@ export const Video: FC<Props> = (props) => {
         </div>
 
         <div className="video-session-text-side ">
-          <div className="text-center">
+          <div className="text-center" data-aos="fade-bottom"
+                    data-aos-offset="200"
+                    data-aos-delay="200">
             <p className="fw-bold text-primary fs-1">{props.header}</p>
             <p className="">{props.description}</p>
           </div>
-          <div className="text-center">
+          <div className="text-center" data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="200">
             <Button variant="secondary px-5 text-white" className="">
               {" "}
-              {props.button}
+              <a href="https://wa.me/233502980350" className="text-white text-decoration-none">{props.button}</a> 
             </Button>
           </div>
         </div>
       </Container>
-    </section>
+    </section> 
   );
 };
