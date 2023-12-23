@@ -11,15 +11,12 @@ const FloatingButton = () => {
         position: 'fixed',
         bottom: '20px',
         right: '20px',
-        zIndex: 1000, // Adjust the z-index based on your layout
-        // borderRadius: '50%',
-        // boxShadow: '0px 2px 10px rgba(0, 0, 0, 0.2)',
-        // background:"green"
+        zIndex: 1000, 
       }}
    
     >
   <a href="https://wa.me/233502980350">
-  <IoLogoWhatsapp style={{
+  <IoLogoWhatsapp className="floating-btn" style={{
     color:"green",
     fontSize:"70px"
    }}/>

@@ -42,7 +42,7 @@ function NavbarForDesktop() {
                         <div className="">
                           <Nav className="" variant="underline" defaultActiveKey="/home">
                           <Nav.Item>
-                            <NavLink to="/" className="text-decoration-none">
+                            <NavLink to="/" className="text-decoration-none mx-3">
                               Home
                             </NavLink>
                             </Nav.Item>
@@ -56,7 +56,7 @@ function NavbarForDesktop() {
 
                             <NavLink
                               to="/contact"
-                              className="text-black text-decoration-none "
+                              className="text-black text-decoration-none mx-3"
                             >
                               Contact Us
                             </NavLink>

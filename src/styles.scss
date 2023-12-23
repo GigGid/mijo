@@ -30,3 +30,9 @@ body{
   font-family:'Outfit', sans-serif ;
 }
 
+
+@media only screen and (max-width: 500px) {
+  .floating-btn{
+    font-size:45px !important;
+  }
+}
