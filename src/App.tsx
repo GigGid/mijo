@@ -8,8 +8,8 @@ import 'aos/dist/aos.css';
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Animation duration
-      offset: 200, // Offset (in px) from the original trigger point
+      duration: 1000, 
+      offset: 200, 
     });
   }, []);
   return (
