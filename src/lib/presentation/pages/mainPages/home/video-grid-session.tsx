@@ -94,7 +94,7 @@ function VideoGridSession() {
                       data-aos-offset="200"
                       data-aos-delay="100"
                     >
-                      Welcome to Mijo, trusted logistics and transportation
+                      Welcome to Mijo, your trusted logistics and transportation
                       company specializing in digital fulfilment of services
                       across Africa. We enable easy movement of goods across
                       borders.
