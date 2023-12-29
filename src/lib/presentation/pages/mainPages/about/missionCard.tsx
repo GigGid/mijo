@@ -21,8 +21,7 @@ export const MissionCard = () => {
                   <p className="fw-bold"> Distribution solution</p>
                   <p>
                     {" "}
-                    Discover our range of distribution services cover Accra and
-                    Tema. Distribution is done based on demarcated zones within
+                    Discover our range of distribution services across Africa. Distribution is done based on demarcated zones within
                     operating cities. We have drivers allocated to each zone. We
                     streamline the distribution process so as to help our
                     clients focus on growing their online and e-commerce
